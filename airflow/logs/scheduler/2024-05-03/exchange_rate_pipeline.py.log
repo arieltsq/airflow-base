@@ -1060,3 +1060,17 @@
 [2024-05-03T08:33:32.144+0000] {logging_mixin.py:188} INFO - [2024-05-03T08:33:32.143+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-05-03T08:33:32.183+0000] {logging_mixin.py:188} INFO - [2024-05-03T08:33:32.183+0000] {dag.py:3954} INFO - Setting next_dagrun for exchange_rate_etl to 2024-05-03 22:00:00+00:00, run_after=2024-05-04 22:00:00+00:00
 [2024-05-03T08:33:32.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.240 seconds
+[2024-05-03T08:34:02.527+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-05-03T08:34:02.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-05-03T08:34:02.531+0000] {logging_mixin.py:188} INFO - [2024-05-03T08:34:02.531+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-05-03T08:34:02.551+0000] {processor.py:840} INFO - DAG(s) 'exchange_rate_etl' retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-05-03T08:34:02.579+0000] {logging_mixin.py:188} INFO - [2024-05-03T08:34:02.579+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T08:34:02.610+0000] {logging_mixin.py:188} INFO - [2024-05-03T08:34:02.609+0000] {dag.py:3954} INFO - Setting next_dagrun for exchange_rate_etl to 2024-05-03 22:00:00+00:00, run_after=2024-05-04 22:00:00+00:00
+[2024-05-03T08:34:02.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.159 seconds
+[2024-05-03T08:34:32.964+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-05-03T08:34:32.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exchange_rate_pipeline.py for tasks to queue
+[2024-05-03T08:34:32.974+0000] {logging_mixin.py:188} INFO - [2024-05-03T08:34:32.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-05-03T08:34:33.025+0000] {processor.py:840} INFO - DAG(s) 'exchange_rate_etl' retrieved from /opt/airflow/dags/exchange_rate_pipeline.py
+[2024-05-03T08:34:33.074+0000] {logging_mixin.py:188} INFO - [2024-05-03T08:34:33.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-03T08:34:33.112+0000] {logging_mixin.py:188} INFO - [2024-05-03T08:34:33.112+0000] {dag.py:3954} INFO - Setting next_dagrun for exchange_rate_etl to 2024-05-03 22:00:00+00:00, run_after=2024-05-04 22:00:00+00:00
+[2024-05-03T08:34:33.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exchange_rate_pipeline.py took 0.228 seconds
